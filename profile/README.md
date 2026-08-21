@@ -9,7 +9,7 @@
 [![Docs](https://img.shields.io/badge/Docs-docs.praxicraft.com-2563EB.svg)](https://docs.praxicraft.com)
 [![X](https://img.shields.io/badge/X-@praxicraft-000000.svg)](https://x.com/praxicraft)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-@praxicraft-0A66C2.svg)](https://www.linkedin.com/company/praxicraft)
-[![YouTube](https://img.shields.io/badge/YouTube-@praxicraft-FF0000.svg)](https://www.youtube.com/@praxicraft)
+[![Instagram](https://img.shields.io/badge/Instagram-@praxicraft-E4405F.svg)](https://www.instagram.com/praxicraft)
 [![Support](https://img.shields.io/badge/Support-support@praxicraft.com-6B7280.svg)](mailto:support@praxicraft.com)
 
 ## What is Praxicraft? 🤔
@@ -31,29 +31,6 @@ Assess turns data-engineering hiring into something you can automate, measure, a
 - Connect Assess to your stack through our Public API, SDKs, n8n, Zapier, and MCP.
 
 Day-to-day hiring lives in the [Assess dashboard](https://assess.praxicraft.com). Connect software when you need it through the [Public API](https://docs.praxicraft.com/authentication) and the repos below.
-
-## Public repositories 📦
-
-| Repository | What it is |
-|---|---|
-| [`praxicraft-python`](https://github.com/praxicraft-platform/praxicraft-python) | Official Python SDK (`pip install praxicraft`) |
-| [`praxicraft-node`](https://github.com/praxicraft-platform/praxicraft-node) | Official Node.js / TypeScript SDK (`@praxicraft/assess`) |
-| [`praxicraft-go`](https://github.com/praxicraft-platform/praxicraft-go) | Official Go SDK |
-| [`n8n-nodes-praxicraft-assess`](https://github.com/praxicraft-platform/n8n-nodes-praxicraft-assess) | n8n community node — triggers + actions |
-| [`zapier-praxicraft-assess`](https://github.com/praxicraft-platform/zapier-praxicraft-assess) | Official Zapier app for Assess |
-
-```bash
-# Python
-pip install praxicraft
-
-# Node.js
-npm install @praxicraft/assess
-
-# Go
-go get github.com/praxicraft-platform/praxicraft-go
-```
-
-Create an API key in **Assess → Developer → API Keys**, then follow the [authentication guide](https://docs.praxicraft.com/authentication).
 
 ## Getting started 🚀
 
