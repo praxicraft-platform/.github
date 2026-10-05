@@ -29,7 +29,6 @@ People use Praxicraft to grow and prove what they can do. Organizations use it t
 | [**Assess**](https://assess.praxicraft.com) | Any organization that needs to know what people can do | Live |
 | **Tutor** | Learners in every career who want guided lessons tied to hands-on practice | Coming soon |
 | **Job search** | People in every career looking for their next role | Coming soon |
-| [**Community**](https://community.praxicraft.com) | Everyone in the Praxicraft ecosystem | Live |
 
 ### Practice
 
@@ -54,7 +53,7 @@ An AI tutor for every career, with guided micro-lessons, a skill map that shows 
 
 A job search for every career, connected to the skills you have shown on Praxicraft.
 
-### Community
+## Community
 
 [community.praxicraft.com](https://community.praxicraft.com) is where practitioners, learners and hiring teams ask questions, share what they are working on, and help each other.
 
