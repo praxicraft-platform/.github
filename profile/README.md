@@ -7,51 +7,99 @@
 [![Website](https://img.shields.io/badge/Website-praxicraft.com-111111.svg)](https://praxicraft.com)
 [![Assess](https://img.shields.io/badge/Assess-assess.praxicraft.com-0F766E.svg)](https://assess.praxicraft.com)
 [![Docs](https://img.shields.io/badge/Docs-docs.praxicraft.com-2563EB.svg)](https://docs.praxicraft.com)
+[![Community](https://img.shields.io/badge/Community-community.praxicraft.com-7C3AED.svg)](https://community.praxicraft.com)
 [![X](https://img.shields.io/badge/X-@praxicraft-000000.svg)](https://x.com/praxicraft)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-@praxicraft-0A66C2.svg)](https://www.linkedin.com/company/praxicraft)
 [![Instagram](https://img.shields.io/badge/Instagram-@praxicraft-E4405F.svg)](https://www.instagram.com/praxicraft)
 [![Support](https://img.shields.io/badge/Support-support@praxicraft.com-6B7280.svg)](mailto:support@praxicraft.com)
 
-## What is Praxicraft? 🤔
+## What is Praxicraft?
 
-[Praxicraft](https://praxicraft.com) is a hands-on workspace for data practitioners — and the same environment hiring teams use to assess talent.
+[Praxicraft](https://praxicraft.com) is the skills platform built on one idea: people should be judged by the work they can do, not by puzzles, proxies or polished CVs.
 
-Engineers solve production-style data engineering workloads in live sandboxes (SQL, Python, Linux, dbt, Airflow, Spark, and more), earn XP, climb ranks, and build a portfolio employers can verify. Organizations use **[Praxicraft Assess](https://assess.praxicraft.com)** to run realistic technical assessments, live interviews, and multi-stage hiring pipelines — with evidence-backed scores instead of LeetCode puzzles.
+It is a full career ecosystem, with every product sharing one account and one identity. You learn what you are missing with Tutor, practice on real work in live sandboxes, and get assessed through Assess on the same kind of work you will do on the job. When you are ready for your next role, Job search helps you find it and apply with the skills you have already proven. Your verified record of skill follows you through every step, so nothing you learn or prove is lost along the way.
 
-Praxicraft itself is a product platform (not open source). This GitHub organization hosts our **public developer surface**: official SDKs and automation integrations for Assess.
+People use Praxicraft to grow and prove what they can do. Organizations use it to measure skill with evidence they can trust, for hiring, admissions, exams, certification and training.
 
-## What does Assess do? 🤯
+## The ecosystem
 
-Assess turns data-engineering hiring into something you can automate, measure, and plug into the tools you already use.
+| Product | Who it is for | Status |
+| --- | --- | --- |
+| [**Practice**](https://praxicraft.com) | Data professionals building and proving their skills | Live |
+| [**Assess**](https://assess.praxicraft.com) | Any organization that needs to know what people can do | Live |
+| **Tutor** | Learners in every career who want guided lessons tied to hands-on practice | Coming soon |
+| **Job search** | People in every career looking for their next role | Coming soon |
+| [**Community**](https://community.praxicraft.com) | Everyone in the Praxicraft ecosystem | Live |
 
-- Run realistic take-home assessments in isolated sandboxes — not toy puzzles.
-- Invite candidates in bulk, track results, and wire outcomes into your ATS or internal tools.
-- Build multi-stage pipelines and live interview rooms with structured signal.
-- React to hiring events with signed webhooks (`assessment.completed`, `candidate.passed`, and more).
-- Connect Assess to your stack through our Public API, SDKs, n8n, Zapier, and MCP.
+### Practice
 
-Day-to-day hiring lives in the [Assess dashboard](https://assess.praxicraft.com). Connect software when you need it through the [Public API](https://docs.praxicraft.com/authentication) and the repos below.
+A hands-on workspace for data practitioners. You solve production-style tasks in live sandboxes (SQL, Python, Linux, dbt, Airflow, Spark and more), earn XP, climb ranks, and build a portfolio employers can verify. No toy exercises: real schemas, dirty data and pipelines that break the way they do at work.
 
-## Getting started 🚀
+### Assess
 
-- [Assess quickstart](https://docs.praxicraft.com) — invite your first candidate from the dashboard or API
-- [Python SDK](https://docs.praxicraft.com/sdks/python) · [Node SDK](https://docs.praxicraft.com/sdks/node) · [Go SDK](https://docs.praxicraft.com/sdks/go)
-- [n8n setup](https://docs.praxicraft.com/n8n) · [Zapier setup](https://docs.praxicraft.com/zapier)
-- [Webhooks](https://docs.praxicraft.com/webhooks) · [Automations](https://docs.praxicraft.com/automations) · [Integrations](https://docs.praxicraft.com/integrations)
-- [Practice on Praxicraft](https://praxicraft.com) — solve real data workloads and build your portfolio
+Realistic, sandboxed assessments and interviews for any organization and any use case. Assess grew out of hiring data engineers, and it now covers much more:
 
-## Vision & Mission 🎯
+- **Hiring for any role**, from data and engineering to every other team that needs a work sample.
+- **Schools and universities** running admissions, coursework and exams.
+- **Certification and licensing bodies** running exams.
+- **Training teams** checking skills before and after a program.
 
-Our mission is to make data engineering skill visible — so practitioners can prove what they can ship, and hiring teams can evaluate talent with evidence from real work, not proxies.
+Organizations build an assessment from realistic tasks, invite candidates through a link with no account required, review sessions with integrity signals, run AI or live interviews, and decide with graded, comparable results. Multi-stage pipelines move candidates from one stage to the next, and signed webhooks plus a Public API connect Assess to your ATS, learning platform or internal tools.
 
-## Feedback & support 💬
+### Tutor (coming soon)
+
+An AI tutor for every career, with guided micro-lessons, a skill map that shows what to learn next, and hands-on labs.
+
+### Job search (coming soon)
+
+A job search for every career, connected to the skills you have shown on Praxicraft.
+
+### Community
+
+[community.praxicraft.com](https://community.praxicraft.com) is where practitioners, learners and hiring teams ask questions, share what they are working on, and help each other.
+
+## What lives in this GitHub organization
+
+The Praxicraft products themselves are not open source. What is open source is our **developer surface**: the official SDKs, developer tools, automation integrations, docs and examples for the Assess Public API. Every repository below is public and open to issues and pull requests.
+
+| Category | Repositories |
+| --- | --- |
+| SDKs | [Python](https://github.com/praxicraft-platform/praxicraft-python) · [Node](https://github.com/praxicraft-platform/praxicraft-node) · [Go](https://github.com/praxicraft-platform/praxicraft-go) · [PHP](https://github.com/praxicraft-platform/praxicraft-php) · [Ruby](https://github.com/praxicraft-platform/praxicraft-ruby) · [Java](https://github.com/praxicraft-platform/praxicraft-java) · [.NET](https://github.com/praxicraft-platform/praxicraft-dotnet) |
+| Developer tools | [CLI](https://github.com/praxicraft-platform/praxicraft-assess-cli) · [MCP server](https://github.com/praxicraft-platform/praxicraft-assess-mcp) · [Agent plugin](https://github.com/praxicraft-platform/praxicraft-assess-agent-plugin) for Claude, Cursor and Codex |
+| Automation | [n8n](https://github.com/praxicraft-platform/n8n-nodes-praxicraft-assess) · [Zapier](https://github.com/praxicraft-platform/zapier-praxicraft-assess) · [Make](https://github.com/praxicraft-platform/make-praxicraft-assess) |
+| Docs and examples | [Documentation](https://github.com/praxicraft-platform/praxicraft-assess-docs) · [Examples and recipes](https://github.com/praxicraft-platform/praxicraft-assess-examples) |
+
+## Getting started
+
+**Individuals**
+
+- [Start practicing on Praxicraft](https://praxicraft.com): solve real data tasks and build your portfolio.
+- [Join the community](https://community.praxicraft.com): ask questions and meet other practitioners.
+
+**Organizations**
+
+- [Open Assess](https://assess.praxicraft.com): build an assessment and invite your first candidate from the dashboard.
+- [Assess quickstart](https://docs.praxicraft.com/quickstart): make your first Public API call.
+
+**Developers**
+
+- [Authentication](https://docs.praxicraft.com/authentication) · [Webhooks](https://docs.praxicraft.com/webhooks) · [Integrations](https://docs.praxicraft.com/integrations) · [Automations](https://docs.praxicraft.com/automations)
+- SDK guides: [Python](https://docs.praxicraft.com/sdks/python) · [Node](https://docs.praxicraft.com/sdks/node) · [Go](https://docs.praxicraft.com/sdks/go) · [PHP](https://docs.praxicraft.com/sdks/php) · [Ruby](https://docs.praxicraft.com/sdks/ruby) · [Java](https://docs.praxicraft.com/sdks/java) · [.NET](https://docs.praxicraft.com/sdks/dotnet) · [CLI](https://docs.praxicraft.com/sdks/cli)
+- [Assess MCP](https://docs.praxicraft.com/assess-mcp) · [Build with agents](https://docs.praxicraft.com/build-with-agents)
+
+## Our mission
+
+Make skill visible. Everyone should be able to prove what they can do, and every organization should be able to judge people on evidence from real work, not proxies.
+
+## Feedback and support
 
 Found a bug in an SDK or integration? Open an issue on the relevant public repository.
 
-- Product & docs questions: [docs.praxicraft.com](https://docs.praxicraft.com)
+- Questions and discussion: [community.praxicraft.com](https://community.praxicraft.com)
+- Product and API docs: [docs.praxicraft.com](https://docs.praxicraft.com)
 - Support: [support@praxicraft.com](mailto:support@praxicraft.com)
-- Sales / enterprise: [sales@praxicraft.com](mailto:sales@praxicraft.com)
+- Sales and enterprise: [sales@praxicraft.com](mailto:sales@praxicraft.com)
 
-## Join our team! 🤝
+## Join our team
 
-We're building the standard for hands-on data engineering practice and technical hiring. If that sounds like your kind of work, check out our [open roles](https://praxicraft.com/careers) — we'd love to meet you.
+We are building the place where people prove what they can do and organizations measure real skill. If that sounds like your kind of work, see our [open roles](https://praxicraft.com/careers).
